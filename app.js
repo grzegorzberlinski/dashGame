@@ -2,9 +2,9 @@ const canvas = document.querySelector('canvas')
 const c = canvas.getContext('2d')
 
 canvas.width = innerWidth
-canvas.height = innerWidth
+canvas.height = innerHeight
 
-const gravity = 0.5
+const gravity = 0.1
 
 
 class Player {
